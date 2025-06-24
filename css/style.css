@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  width: 100vw;
+  background-color: burlywood;
+  height: 10vh;
+
+}
+
+nav ul {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: normal;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.main_image {
+  width: 20%;
+  margin: 1.5rem;
+  border-radius: 10px;
+
+}
+
+h1 {
+  margin: 2rem 0 2rem 0;
+}
+
+p {
+  margin: 1.5rem;
+  font-size: 1rem;
+}
+
+p a {
+  text-decoration: none;
+}
+
+footer {
+  border-top: solid 1px;
+}
+
+.image_container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image_container img {
+  border-radius: 10px;
+  border: solid 1px;
+}
